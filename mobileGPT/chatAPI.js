@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const chatGptEndpoint = 'https://api.openai.com/v1/completions';
 
-const API_KEY = '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';
+const API_KEY = 'YOUR-API-KEY';
 
 
 export const getChatGptResponse = async (message) => {
